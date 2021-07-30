@@ -1,3 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
 .footer {
   display: flex;
   height:100px;
@@ -31,7 +36,7 @@
   color:#436666;
 }
 .main {
-  height:500px;
+  height:auto;
   width: 100%;
   display: flex;
   justify-content:space-between; 
@@ -39,6 +44,7 @@
   align-items: flex-start;  
 }
 .sidebar-left {
+  height: auto;
   background-color:#1b3e3e;
   min-width: 20%;
   max-width: 27.5%;
@@ -52,6 +58,7 @@
 }
 .sidebar-right {
   display:flex;
+  height: auto;
   background-color: #1b3e3e;
   min-width:20%;
   max-width:27.5%;
@@ -65,19 +72,15 @@
 }
 
 .main-content {
-  width:auto;
-  min-width: 55%;
-  /* border-left: 2px dotted black;
-  border-right: 2px dotted black; */
+  width:50%;
+  min-width: 40%;
   background-color: #607f7f;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-content: flex-start;
   margin-left: 5px;
-  margin-right: 5px;
-  padding: 10px;
-  
+  margin-right: 5px; 
 }
 
 .menu a {
@@ -146,7 +149,7 @@ h2 re{
   background-color: #1b3e3e;
   border-radius: 10px;
   margin:10px;
-  height: 300px;
+  height: auto;
   width:20%;
   display: flex;
   flex-direction: column;
@@ -174,4 +177,35 @@ hr {
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.main-content img {
+  width: 100%;
+  object-fit:cover;
+  border-radius: 10px;
+}
+
+.mc-article h2 {
+  color:white;
+  text-transform: capitalize;
+  padding-left: 5%;
+}
+
+.mc-article p {
+  color:#0E3232;
+  padding-left: 5%;
+}
+
+.mc-article p.log {
+  
+}
+
+.rarticle p.log-rarticle {
+
+  color:white;
+  font-size:11px;
+  padding-left: 5%;
+  text-transform: uppercase;
+  margin-top: 0%;
+
 }
