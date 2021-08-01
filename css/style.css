@@ -45,12 +45,15 @@
 }
 .sidebar-left {
   height: auto;
-  background-color:#1b3e3e;
+  /* background-color:#1b3e3e; */
   min-width: 20%;
   max-width: 27.5%;
   /* border: 2px solid lightsteelblue; */
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  border-right: 1px dashed #1b3e3e;
+  border-top: 1px dashed #1b3e3e;
+  border-bottom: 1px dashed #1b3e3e;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -59,15 +62,19 @@
 .sidebar-right {
   display:flex;
   height: auto;
-  background-color: #1b3e3e;
+  /* background-color: #1b3e3e; */
   min-width:20%;
   max-width:27.5%;
   /* border: 2px solid lightsteelblue; */
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  border-left: 1px dashed #1b3e3e;
+  border-top: 1px dashed #1b3e3e;
+  border-bottom: 1px dashed #1b3e3e;
   color:#436666;
   align-items: flex-start;
   justify-content: center;
+
 
 }
 
