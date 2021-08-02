@@ -84,6 +84,11 @@ p.sidebars {
   margin-bottom:1px;
   margin-right: 1px;
 }
+
+.authors:hover {
+  background-color: #607f7f;
+  color:#0E3232;
+}
 .authors img {
   width:60px;
   height:60px;
@@ -105,6 +110,9 @@ p.sidebars {
   padding-left: 10px;
   margin-bottom: 0;
   color: #607f7f;
+}
+.author-name h2:hover {
+  color:#0E3232;
 }
 .author-name h3 {
   font-size: 12px;
