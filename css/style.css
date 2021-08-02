@@ -25,15 +25,28 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
  .name a {
   font-size: 25px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight:lighter;
+  text-transform: lowercase;
   text-decoration: none;
-  color:#607f7f;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  /* margin-bottom: 0%; */
 }
 .name a:hover {
   color:#436666;
+}
+.name h2 {
+  font-size:12px;
+  text-transform:Capitalize;
+  color:#607f7f;
+  margin-top: 0%;
 }
 .main {
   height:auto;
@@ -57,7 +70,62 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  flex-direction: column;
  
+}
+
+p.sidebars {
+  justify-content: center;
+}
+.authors {
+  display:flex;
+  background-color: #0E3232;
+  border-radius: 10px;
+  margin-bottom:1px;
+  margin-right: 1px;
+}
+.authors img {
+  width:60px;
+  height:60px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.our-authors {
+  width:100%;
+  margin-bottom:25px;
+}
+.author-name {
+  display:flex; 
+  align-items: flex-start;
+  width:100%
+}
+.author-name h2 {
+  font-size: 16px;
+  margin-top: 4px;
+  padding-left: 10px;
+  margin-bottom: 0;
+  color: #607f7f;
+}
+.author-name h3 {
+  font-size: 12px;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  color: #607f7f;
+}
+
+.author-name p{
+  font-size: 10px;
+  margin-top: 0;
+  margin-left: 10px;
+  color: #607f7f;
+}
+.post-details {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
 }
 .sidebar-right {
   display:flex;
@@ -74,10 +142,66 @@
   color:#436666;
   align-items: flex-start;
   justify-content: center;
+  flex-direction: column;
 
 
 }
 
+.Upcoming-Adventures {
+  width:100%;
+  margin-bottom:25px;
+}
+.travels {
+  display:flex;
+  border-radius: 10px;
+  margin-bottom:1px;
+  margin-right: 1px;
+  flex-direction: column;
+}
+.travel-id {
+  display:flex; 
+  align-items: flex-start;
+  width:100%;
+  background-color: #0E3232;
+  margin-bottom: 1px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  }
+
+.travel-details {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+}
+.travel-id img {
+  width:60px;
+  height:60px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.travel-id h2 {
+  font-size: 16px;
+  margin-top: 4px;
+  padding-left: 10px;
+  margin-bottom: 0;
+  color: #607f7f;
+}
+.travel-id h3 {
+  font-size: 12px;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  color: #607f7f;
+}
+
+.travel-id p{
+  font-size: 10px;
+  margin-top: 0;
+  margin-left: 10px;
+  color: #607f7f;
+}
 .main-content {
   width:50%;
   min-width: 40%;
