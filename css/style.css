@@ -269,23 +269,26 @@
   border-radius: 10px;
   display: flex;
   align-content: center;
-  justify-content:center;
 }
 
 .hero-text {
 display: flex;
 flex-direction: column;
-justify-content: normal;
-margin-left: 0;
-align-items: center;
+margin-top: 37px;
+margin-left: 77px;
 }
 .hero-text h1 {
   color: white;
   text-transform: uppercase;
+  font-size: 56px;
+  padding-bottom: 0px;
+ margin-bottom: 1px;
+
   
 }
 .hero-text p {
   color:white;
+  margin-top: 1px;
   
 }
 .sidebars{
@@ -303,9 +306,9 @@ align-items: center;
 
 }
 
-h2 re{
+/* h2 re{
   color: #0E3232;
-  font-size: 18px;
+  font-size: 18px; */
   
 }
 .rarticle {
