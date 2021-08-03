@@ -62,11 +62,11 @@
   min-width: 20%;
   max-width: 27.5%;
   /* border: 2px solid lightsteelblue; */
-  border-top-right-radius: 10px;
+  /* border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border-right: 1px dashed #1b3e3e;
   border-top: 1px dashed #1b3e3e;
-  border-bottom: 1px dashed #1b3e3e;
+  border-bottom: 1px dashed #1b3e3e; */
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -74,9 +74,9 @@
  
 }
 
-p.sidebars {
+/* p.sidebars {
   justify-content: center;
-}
+} */
 .authors {
   display:flex;
   background-color: #0E3232;
@@ -90,14 +90,17 @@ p.sidebars {
   color:#0E3232;
 }
 .authors img {
-  width:60px;
-  height:60px;
+  width:74px;
+  height:74px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 .our-authors {
   width:100%;
   margin-bottom:25px;
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
 .author-name {
   display:flex; 
@@ -142,22 +145,30 @@ p.sidebars {
   min-width:20%;
   max-width:27.5%;
   /* border: 2px solid lightsteelblue; */
-  border-top-left-radius: 10px;
+  /* border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-left: 1px dashed #1b3e3e;
   border-top: 1px dashed #1b3e3e;
-  border-bottom: 1px dashed #1b3e3e;
-  color:#436666;
+  border-bottom: 1px dashed #1b3e3e; */
+  /* color:#436666; */
   align-items: flex-start;
-  justify-content: center;
+  justify-content: right;
   flex-direction: column;
 
 
 }
 
+/* .sidebar-right-p {
+  margin-left: 112px;
+  color:#607f7f;
+  font-size:18px;
+  font-weight: bold;
+
+} */
 .Upcoming-Adventures {
   width:100%;
   margin-bottom:25px;
+ 
 }
 .travels {
   display:flex;
@@ -165,6 +176,9 @@ p.sidebars {
   margin-bottom:1px;
   margin-right: 1px;
   flex-direction: column;
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
 .travel-id {
   display:flex; 
@@ -184,8 +198,8 @@ p.sidebars {
   width: 100%;
 }
 .travel-id img {
-  width:60px;
-  height:60px;
+  width:auto;
+  height:74px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -246,7 +260,7 @@ p.sidebars {
 .hero-image{
   margin-top: 10px;
   padding-top: 10px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/road.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/hero.png");
 
   height: 460px;
   background-position: center;
@@ -256,6 +270,14 @@ p.sidebars {
   display: flex;
   align-content: center;
   justify-content:center;
+}
+
+.hero-text {
+display: flex;
+flex-direction: column;
+justify-content: normal;
+margin-left: 0;
+align-items: center;
 }
 .hero-text h1 {
   color: white;
@@ -269,6 +291,8 @@ p.sidebars {
 .sidebars{
   color:#607f7f;
   font-size: 18px;
+  align-self: center;
+  font-weight: bold;
 }
 .main1 {
   color: #0E3232;
