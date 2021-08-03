@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../jjcs"
+		},
+		{
+			"name": "Sites",
+			"path": "../jjcs/Sites"
+		}
+	],
+	"settings": {}
+}
